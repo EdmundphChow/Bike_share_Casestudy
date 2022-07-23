@@ -175,7 +175,9 @@ MergedData.to_csv("ProcessedData.csv")
 - For Members, the travel time are similiar across the week with longer trips in weekends.
 
 ![Average Travel Time by Day of week Bar Chart](viz10.PNG)
-
+### Trips and Travel time by Months
+- Both Members and Casuals have most trip in June to September.
+![Number of Trips by Months](viz13.PNG)
 ### Top 10 Starting Station
 ![Top 10 Starting Station for Casuals](viz11.PNG)
 ![Top 10 Starting Station for Members](viz12.PNG)
