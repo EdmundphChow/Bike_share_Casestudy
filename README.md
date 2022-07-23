@@ -1,5 +1,5 @@
 # Case Study: How Does a Bike-Share Navigate Speedy Success?
----
+
 
 ## Case Study Background
 This case study is about a bike-share company Cyclystic. Cyclistic has three pricing plan: single-ride passes. full-day passes, and annual membership. Single-ride or full-day passes are referred to as casual riders. The goal of Cyclistic marketing team is to maximizing the number of annual memberships by converting casual riders into annual members. 
