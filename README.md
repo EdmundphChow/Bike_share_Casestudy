@@ -175,7 +175,7 @@ MergedData.to_csv("ProcessedData.csv")
 - For Casuals, trips are longer on Sundays and Mondays.
 - For Members, the travel time are similiar across the week with longer trips in weekends.
 
-![Average Travel Time by Day of week Bar Chart](viz10.png)
+![Average Travel Time by Day of week Bar Chart](viz10.PNG)
 
 ### Top 10 Starting Station
 ![Top 10 Starting Station for Casuals](viz11.png)
