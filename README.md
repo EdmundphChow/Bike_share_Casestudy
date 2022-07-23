@@ -63,7 +63,8 @@ MergedData.reset_index(drop = True)
 |DayOfWeekint      |             int64|
 |DayOfWeek         |            object|
 
-## Data preprocesing 
+## Data preprocesing
+### Modifying columns
 
 1. Converting the data type of "started_at" and "ended_at" to datetime
 ```python
@@ -98,9 +99,7 @@ MergedData[MergedData.duplicated()]
 #### Checking Data Errors with started time after ended time.
 ```python
 MergedData[MergedData["TravelTime"]<0]
-```
-As there are only a ignorable amount of rows of error we will omit the wrong data.
-```python
+#As there are only a ignorable amount of rows of error we will omit the wrong data.
 MergedData = MergedData.drop(index = MergedData[MergedData["TravelTime"]<0].index)
 ```
 #### Checking trips with same start and end station and time less than half a minute.
@@ -160,9 +159,9 @@ MergedData.to_csv("ProcessedData.csv")
 - The Average Travel time of Casuals are 42% more than Members.
 ![Average Travel Time by membership Bar Chart](viz7.PNG)
 - Casuals and Members behave similiarly for trips within an hour, the great difference in average travel time can be explained below:
-1. The max travel time of Casuasl (55944) is much greater than Members (1560) 
-2. 8.8% of trips for Casuals are over an hour while less than 1% of trips for Members are over an hour
-3. So there are many Casual trips with high travel time contribute to the high average time for Casuals.
+  1. The max travel time of Casuasl (55944) is much greater than Members (1560) 
+  2. 8.8% of trips for Casuals are over an hour while less than 1% of trips for Members are over an hour
+  3. So there are many Casual trips with high travel time contribute to the high average time for Casuals.
 ![Statistic of Travel time by membership Crosstab](viz7.PNG)
 
 ### Trips and Travel time by day of week
