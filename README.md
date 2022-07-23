@@ -144,7 +144,7 @@ MergedData.to_csv("ProcessedData.csv")
 ![Number of Trips by membership Bar Chart](viz1.PNG)
 2. Most trip starts and end at the same day in a different station.
 ![Trips that start and end at the same day](viz2.PNG)
-3. Most trip starts and end in a different station.
+3. Most trip starts and end in a different station.                           
 ![Trip that start and end at the same station](viz3.PNG)
 4. For trips that start and end at different dates, Casuals have about 3 times more trips than Members.
 ![Number of Trips by membership Bar Chart at differnt dates](viz4.PNG)
