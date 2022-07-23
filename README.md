@@ -162,7 +162,7 @@ MergedData.to_csv("ProcessedData.csv")
   1. The max travel time of Casuasl (55944) is much greater than Members (1560) 
   2. 8.8% of trips for Casuals are over an hour while less than 1% of trips for Members are over an hour
   3. So there are many Casual trips with high travel time contribute to the high average time for Casuals.
-![Statistic of Travel time by membership Crosstab](viz7.PNG)
+![Statistic of Travel time by membership Crosstab](viz8.PNG)
 
 ### Trips and Travel time by day of week
 
