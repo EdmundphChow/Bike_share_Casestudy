@@ -141,36 +141,36 @@ MergedData.to_csv("ProcessedData.csv")
 
 ### Number of trip by Membership
 1. Members have about 20% more trips than Casuals.
-![Number of Trips by membership Bar Chart](viz1.png)
+![Number of Trips by membership Bar Chart](viz1.PNG)
 2. Most trip starts and end at the same day in a different station.
-![Trips that start and end at the same day](viz2.png)
+![Trips that start and end at the same day](viz2.PNG)
 3. Most trip starts and end in a different station.
-![Trip that start and end at the same station](viz3.png)
+![Trip that start and end at the same station](viz3.PNG)
 4. For trips that start and end at different dates, Casuals have about 3 times more trips than Members.
-![Number of Trips by membership Bar Chart at differnt dates](viz4.png)
+![Number of Trips by membership Bar Chart at differnt dates](viz4.PNG)
 5. For trips that start and end at the same station, Members have about half the number of trips for Casuals.
-![Number of Trips by membership Bar Chart at same station](viz5.png)
+![Number of Trips by membership Bar Chart at same station](viz5.PNG)
 
 ### Travel time by Membership
 
 - Most of the trips are around 6 minutes long.
 - From the histogram, both membership have similar shape of distribution with Casuals having more trips in any given travel time.
 
-![Travel time of trips within an hour Histogram](viz6.png)
+![Travel time of trips within an hour Histogram](viz6.PNG)
 - The Average Travel time of Casuals are 42% more than Members.
-![Average Travel Time by membership Bar Chart](viz7.png)
+![Average Travel Time by membership Bar Chart](viz7.PNG)
 - Casuals and Members behave similiarly for trips within an hour, the great difference in average travel time can be explained below:
 1. The max travel time of Casuasl (55944) is much greater than Members (1560) 
 2. 8.8% of trips for Casuals are over an hour while less than 1% of trips for Members are over an hour
 3. So there are many Casual trips with high travel time contribute to the high average time for Casuals.
-![Statistic of Travel time by membership Crosstab](viz7.png)
+![Statistic of Travel time by membership Crosstab](viz7.PNG)
 
 ### Trips and Travel time by day of week
 
 - For Casuals, more trips are on weekends and Fridays than in weekdays.
 - For Members, number of trips are similiar across the week with less trips in Sundays and Mondays.
 
-![Number of Trips by Day of week Bar Chart](viz9.png)
+![Number of Trips by Day of week Bar Chart](viz9.PNG)
 
 - For Casuals, trips are longer on Sundays and Mondays.
 - For Members, the travel time are similiar across the week with longer trips in weekends.
@@ -178,5 +178,5 @@ MergedData.to_csv("ProcessedData.csv")
 ![Average Travel Time by Day of week Bar Chart](viz10.PNG)
 
 ### Top 10 Starting Station
-![Top 10 Starting Station for Casuals](viz11.png)
-![Top 10 Starting Station for Members](viz12.png)
+![Top 10 Starting Station for Casuals](viz11.PNG)
+![Top 10 Starting Station for Members](viz12.PNG)
