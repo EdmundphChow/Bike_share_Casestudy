@@ -181,3 +181,14 @@ MergedData.to_csv("ProcessedData.csv")
 ### Top 10 Starting Station
 ![Top 10 Starting Station for Casuals](viz11.PNG)
 ![Top 10 Starting Station for Members](viz12.PNG)
+
+## Visualization
+The full tableau dashboard presentation : [Case_Study_Data_viz](https://public.tableau.com/views/BikeShareCaseStudy_16529134151260/Story1?:language=en-US&:display_count=n&:origin=viz_share_link).
+
+## Recommendations 
+
+- Casual riders have a higher travel time than members on average, some casual riders may spend more on paying for separate, long rides than joining the membership. Cyclistic can identify those riders and provide the saving that can be made by joining the membership to those riders.
+
+- There are more trips on the weekend than on the weekdats for casual riders. Cyclistic can introduce a weekend mebership that can only ride on weekends targeting the Casual riders tends to ride on weekends.
+
+- Casual riders are most active from June to September, at Streeter Dr & Grand Ave. Marketing campaing can be foced on those months and the top stations for casuals. 
